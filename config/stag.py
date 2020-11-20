@@ -40,7 +40,7 @@ DATABASES.update(
     {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': APP_CODE,  # 数据库名
+            'NAME': 'bkm_db_test',  # 数据库名
             'USER': 'bkm_test',  # 数据库用户
             'PASSWORD': 'XkoexlF4Hj5JEKoE',  # 数据库密码
             'HOST': 'rm-uf6p1936n154wl8gmo.mysql.rds.aliyuncs.com',  # 数据库主机
