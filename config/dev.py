@@ -44,12 +44,12 @@ DEBUG = True
 # SQL: CREATE DATABASE `framework_py` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci; # noqa: E501
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.mysql",
-        "NAME": "test1",  # noqa
-        "USER": "root",
-        "PASSWORD": "zhanqunfeng",
-        "HOST": "localhost",
-        "PORT": "3306",
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': APP_CODE,  # noqa
+        'USER': 'root',  # 数据库用户
+        'PASSWORD': '123456',  # 数据库密码
+        'HOST': 'localhost',  # 数据库主机
+        'PORT': '3306',  # 数据库端口
     },
 }
 
